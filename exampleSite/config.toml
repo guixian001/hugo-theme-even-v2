@@ -16,12 +16,26 @@ pygmentsCodefencesGuessSyntax = true
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 5                                              # 首页每页显示的文章数
-disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
-[author]                  # essential                     # 必需
-  name = "olOwOlo"
+defaultContentLanguageInSubdir = false
+[languages]
+  [languages.zh-cn]
+    languageCode = 'zh-cn'
+    languageName = 'Chinese'
+    title = 'Blog Title'
+    weight = 1
+
+[services]
+  [services.disqus]
+    # .Site.Config.Services.Disqus.Shortname
+    shortname = ''
+  [services.googleAnalytics]
+    # .Site.Config.Services.GoogleAnalytics.ID
+    id = 'UA-208225217-1'
+
+[taxonomies]
+  name = "Chen Guixian"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
