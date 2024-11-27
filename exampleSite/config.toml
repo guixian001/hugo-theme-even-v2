@@ -34,9 +34,6 @@ defaultContentLanguageInSubdir = false
     # .Site.Config.Services.GoogleAnalytics.ID
     id = ''
 
-[taxonomies]
-  name = ""
-
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
   priority = 0.5
@@ -64,6 +61,7 @@ defaultContentLanguageInSubdir = false
   url = "/categories/"
 
 [params]
+  author = "Author Name"    # Author Name 作者名称
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
