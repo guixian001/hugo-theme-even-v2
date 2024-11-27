@@ -32,10 +32,10 @@ defaultContentLanguageInSubdir = false
     shortname = ''
   [services.googleAnalytics]
     # .Site.Config.Services.GoogleAnalytics.ID
-    id = 'UA-208225217-1'
+    id = ''
 
 [taxonomies]
-  name = "Chen Guixian"
+  name = ""
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
